@@ -1,0 +1,40 @@
+/************************
+ *
+ * CSS Example Snippets
+ *     Responsive/Media Queries
+ *     Sprites
+ *
+ *
+************************/
+
+/************************
+ * RESETS
+ * used to normalize styles across browsers
+ * line-height, margin, headings <h1>, <h2>, <h3>, etc.
+ * - links:
+ * similar to normalized.css's, but overwrites default styles
+************************/
+
+
+/************************
+ * FLOATS
+ * elements pulled right or left, allowing other content to flow around it
+ * collapsing effect on the parent container. Fixed by clearing the float in the container
+ * - links:
+ *     http://jamesallardice.com/explaining-function-and-variable-hoisting-in-javascript/
+************************/
+.clear { clear: both; }
+
+/************************
+ * Display vs. Visibility
+ * - links:
+ *     http://jamesallardice.com/explaining-function-and-variable-hoisting-in-javascript/
+************************/
+/*different ways to visually hide content (and make it available only for screen readers)*/
+{ visibility: hidden; }
+{ width: 0; height: 0; }
+{ text-indent: -1000px }
+{   position: absolute;
+    top: off the screen;
+    left: off the screen;
+}
